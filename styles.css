@@ -1,6 +1,6 @@
 body {
     font-family: 'Outfit';
-    background-color: hsl(220, 41%, 79%);
+    background-color: hsl(212, 45%, 89%);
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -31,7 +31,15 @@ body {
     
 }
 
+.text-box {
+    width: 85%;
+    height: auto;
+    padding: 0 16px 0 16px;
+}
 
+.text-box p {
+    color: hsl(220, 15%, 55%);
+}
 .attribution { 
     text-align: center;
     position: absolute;
